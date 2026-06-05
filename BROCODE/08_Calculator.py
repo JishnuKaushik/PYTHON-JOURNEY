@@ -13,10 +13,10 @@ elif operator == "-" :
     print(num1-num2)
 
 elif operator == "*" :
-    print(num1*num2)
+    print(round(num1*num2 , 3))
 
 elif operator == "/" :
-    print(num1/num2)
+    print(round(num1/num2 , 3))
 
 else :
     print("Please give correct input")
