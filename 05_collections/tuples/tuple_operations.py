@@ -7,10 +7,7 @@ tuble = () ordered and unchangeable. Duplicates OK. FASTER
 #                          TUPLE
 
 fruits = ("apple", "orange", "banana", "coconut")
-print(dir(fruits))
-print(help(fruits))
 print(len(fruits))
 print("pineapple" in fruits)
 
 print(fruits.index("apple"))
-print(fruits.count("coconut"))
